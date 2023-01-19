@@ -1,45 +1,45 @@
-'use strict';
+// 'use strict';
 
-//VARIABLES
-console.log(me);
-// console.log(job);
-// console.log(year);
+// //VARIABLES
+// console.log(me);
+// // console.log(job);
+// // console.log(year);
 
-var me = 'Jonas';
-let job = 'teacher';
-const year = 1991;
+// var me = 'Jonas';
+// let job = 'teacher';
+// const year = 1991;
 
-//FUNCTIONS
+// //FUNCTIONS
 
-// console.log(addDecl(2, 3));
-// console.log(addArrow);
-// console.log(addExpr(2, 3));
-// console.log(addArrow(2, 3));
+// // console.log(addDecl(2, 3));
+// // console.log(addArrow);
+// // console.log(addExpr(2, 3));
+// // console.log(addArrow(2, 3));
 
-function addDecl(a, b) {
-  return a + b;
-}
+// function addDecl(a, b) {
+//   return a + b;
+// }
 
-const addExpr = function (a, b) {
-  return a + b;
-};
+// const addExpr = function (a, b) {
+//   return a + b;
+// };
 
-var addArrow = (a, b) => a + b;
+// var addArrow = (a, b) => a + b;
 
-//Example of NOT correct functionalit because of hoisting
+// //Example of NOT correct functionalit because of hoisting
 
-if (!numProducts) deleteShoppingCart();
+// if (!numProducts) deleteShoppingCart();
 
-var numProducts = 10;
+// var numProducts = 10;
 
-function deleteShoppingCart() {
-  console.log('All products deleted');
-}
+// function deleteShoppingCart() {
+//   console.log('All products deleted');
+// }
 
-var x = 1;
-let y = 2;
-const z = 3;
+// var x = 1;
+// let y = 2;
+// const z = 3;
 
-console.log(x === window.x);
-console.log(y === window.y);
-console.log(z === window.z);
+// console.log(x === window.x);
+// console.log(y === window.y);
+// console.log(z === window.z);
